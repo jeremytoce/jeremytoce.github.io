@@ -1,3 +1,10 @@
+.main-header-content {
+    background: grey;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+
 .post-header .social-share {
     margin-top: 1em;
 }
@@ -103,6 +110,7 @@
 
 .menu {
     margin-top: 1.2em;
+    padding-bottom: .8em;
 }
 .menu ul {
     list-style-type: none;

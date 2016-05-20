@@ -1,26 +1,58 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Build:Grow</title><description>Quibbles and bits on development and growth engineering.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 19 May 2016 18:50:45 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Hack Reactor: The Lead Up</title><description>&lt;pre&gt;&lt;code&gt;function largestNums (array) {  
-  return map(array, function(element) {
-    if (element.length &amp;lt; 1) {
-      return null;
-    }
-    return reduce(element, function(acc, element) {
-        acc &amp;lt; element ? acc = element : acc = acc;
-        return acc;
-    });
-  });
-}
-&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/test-post/</link><guid isPermaLink="false">dfadae5e-e650-472e-a652-3d67c7eab472</guid><dc:creator>Jeremy Toce</dc:creator><pubDate>Thu, 19 May 2016 07:47:36 GMT</pubDate><content:encoded>&lt;pre&gt;&lt;code&gt;function largestNums (array) {  
-  return map(array, function(element) {
-    if (element.length &amp;lt; 1) {
-      return null;
-    }
-    return reduce(element, function(acc, element) {
-        acc &amp;lt; element ? acc = element : acc = acc;
-        return acc;
-    });
-  });
-}
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">55476b25-b9b4-4458-8656-66af109de5de</guid><category>Getting Started</category><dc:creator>Jeremy Toce</dc:creator><pubDate>Thu, 19 May 2016 07:44:21 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Build:Grow</title><description>Quibbles and bits on development and growth engineering.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Fri, 20 May 2016 09:28:01 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Hack Reactor: The Lead Up</title><description>&lt;p&gt;&lt;img class="max-width: 75%;" src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2465/assets/img/hack-reactor-logo.png" style="max-width: 75%"&gt;&lt;/p&gt;
+
+&lt;p&gt;After three and a half months of near daily studying, several technical interviews, four gating projects and a lot of eye strain on Mozilla MDN - Hack Reactor is right around the corner. In 18 days, I will begin my journey into the world of break-neck speed bootcamp instruction, focusing&lt;/p&gt;</description><link>http://localhost:2368/test-post/</link><guid isPermaLink="false">dfadae5e-e650-472e-a652-3d67c7eab472</guid><dc:creator>Jeremy Toce</dc:creator><pubDate>Thu, 19 May 2016 07:47:36 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img class="max-width: 75%;" src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2465/assets/img/hack-reactor-logo.png" style="max-width: 75%"&gt;&lt;/p&gt;
+
+&lt;p&gt;After three and a half months of near daily studying, several technical interviews, four gating projects and a lot of eye strain on Mozilla MDN - Hack Reactor is right around the corner. In 18 days, I will begin my journey into the world of break-neck speed bootcamp instruction, focusing on an immersive full-stack development curriculum. I am excited to make the transition from the world of physical product development back to digital product development!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://tech.co/wp-content/uploads/2015/01/hack_reactor_640x320.jpg" alt="Hack Reactor"&gt;&lt;/p&gt;
+
+&lt;p&gt;Prior to putting my entire focus on attending a software engineering bootcamp, I had toyed with the concept for around two years. During that two year span, I had started and grown two successful ecommerce businesses (one of which became a victim of its own success, which will be a future blog post). After dealing with the miscellaneous nuances of designing, marketing, manufacturing and selling physical products (inventory, blah!), I made a firm decision to swap over to the world of software-based technology - a bit jump - and haven't looked back.&lt;/p&gt;
+
+&lt;p&gt;That isn't to say that development is a new gig for me, either. I co-founded a modest web design firm in small-town Connecticut, had a tenure as a fundamental web development instructor for a wonderful group of  freshmen and sophomore students, and led a weekly beginner's Python study group called "Let's Learn to Code". The past three and a half months, however, has blown all of these experiences out of the water in terms of the sheer amount I have absorbed (and continue to). Coming from small-town Connecticut to tech epicenter San Francisco has played out to be a quintessential "small fish, big pond" experience - and I am loving every minute of it.&lt;/p&gt;
+
+&lt;p&gt;I enrolled in a part-time course organized by Hack Reactor, Hack Reactor Prep, that covered the fundamentals of functional programming with Javascript. Besides having a phenomenal instructor Josh - who made the whole class enjoyable and was more enthusiastic than any professor I have ever had - the class itself was a great experience. Hack Reactor likes to keep their content fresh, so new material was put out same day to challenge participants of all levels. Here, I was able to brush up on programming fundamentals and gain a firm mastery of the principles of recursion and higher-order functions. These last two proved to be especially useful topics of instruction for the months to come.&lt;/p&gt;
+
+&lt;p&gt;After wrapping up HR Prep, I eagerly applied to Hack Reactor to gauge my skill level. Hack Reactor bills itself as a 20-120 bootcamp, meaning you are expected to come in with a solid base of development knowledge, and their latest numbers indicate a 3% acceptance rate. After a higher-order function-heavy technical interview in March that stressed importance on the popular Underscore.js library (note: they have since changed the interview process), I was accepted into Hack Reactor and enrolled in the June cohort, 45.&lt;/p&gt;
+
+&lt;p&gt;Once you become a Hack Reactor student (or, in my case, a prospective student), you seem to instantly develop a radar for other HR students and alumni. If I descend from the hills of Twin Peaks to anywhere downtown, I almost always spot an alum sporting a hoodie or shirt. I went to a proto night meetup a few weeks back, and the first two people I met were seasoned Hack Reactor alumni - both working on some very cool projects. It's interesting how that works, or maybe I just have a heightened sense of it now.&lt;/p&gt;
+
+&lt;p&gt;So, what have I been doing since March to sharpen my technical knife?&lt;/p&gt;
+
+&lt;h2 id="alotoftoyproblems"&gt;A lot of toy problems  &lt;/h2&gt;
+
+&lt;p&gt;When you are focusing on mastery of software engineering concepts such as recursion, OOP, data structures and algorithms, I have found that the best way to beat the content into my head is through mundane repetition. The best source of repetition? Small toy problems that focus on the topic that you are specifically honing in on. There are a multitude of good sites for this, but I have found the following resources particularly useful:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/mrdavidlaing/javascript-koans"&gt;Javascript Koans.&lt;/a&gt; JS Koans is a interactive test suite that walks you through a multitude of Javascript-oriented concepts, including Crockford's Inheritance. This is a breeze if you are familiar with the language, but can be used as a good gauge on what needs review.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.codewars.com/dashboard"&gt;Codewars.&lt;/a&gt; This is my go-to site for toy problems, period. If you are looking to focus on a specific element, their vast database of problems usually has a number on deck for you. This is a fun and interactive platform that allows you to compare your answers with the answers of others, helping you write more effective and efficient code in the future. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://leetcode.com/"&gt;Leetcode.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Reactx?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="readingandwatchingeverythingican"&gt;Reading and watching everything I can  &lt;/h2&gt;
+
+&lt;p&gt;I am a self-diagnosed visual learner, so I highly prefer video content for picking up new material to run of the mill textbooks. As such, you will see that this list is skewed towards streaming videos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/c/mpjmevideos"&gt;Fun Fun Function Youtube channel.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;...and generally just YouTube searching a particular topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://egghead.io/"&gt;Egghead.io.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"&gt;Mozilla Developer Network.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://stackoverflow.com/"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://drive.google.com/folderview?id=0B_OvHuLKTFgMVHBqVEtXLWo2ZWM&amp;amp;usp=drive_web"&gt;Data Structures &amp;amp; Algorithms with Javascript&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="makingusefulrepositories"&gt;Making useful repositories  &lt;/h2&gt;
+
+&lt;p&gt;(Talk about recursion hell)&lt;/p&gt;
+
+&lt;h2 id="theofficialhackreactorprecoursework"&gt;The official Hack Reactor pre-course work  &lt;/h2&gt;
+
+&lt;p&gt;// The pre-course work
+// What I am doing to bolster my knowledge going into HR
+// What I need to work on 
+// Changing my routine/Colin/my schedule
+// Wrap up&lt;/p&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">55476b25-b9b4-4458-8656-66af109de5de</guid><category>Getting Started</category><dc:creator>Jeremy Toce</dc:creator><pubDate>Thu, 19 May 2016 07:44:21 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
 
 &lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
 
